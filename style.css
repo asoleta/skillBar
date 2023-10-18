@@ -57,9 +57,29 @@ h3 {
     animation: java 3s;
 }
 
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
 .python {
     width: 40%;
     animation: python 3s;
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
 }
 
 .c {
@@ -67,12 +87,42 @@ h3 {
     animation: c 3s;
 }
 
+@keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
 .html {
     width: 75%;
     animation: html 3s;
 }
 
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
 .css {
     width: 70%;
     animation: css 3s;
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
 }
